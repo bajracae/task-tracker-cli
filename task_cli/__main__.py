@@ -34,20 +34,23 @@ def main():
         print(f"Added '{args.description}' to list")
     elif args.command == "update":
         tasktracker.update(args.id, args.description)
-        print(f"Updated '{args.id}' to '{args.description}'")
+        print(f"Updated task with id '{args.id}' to '{args.description}'")
     elif args.command == "delete":
         tasktracker.delete(args.id)
-        print(f"Deleted '{args.id}' from list")
+        print(f"Deleted task '{args.id}' from list")
     elif args.command == "mark-in-progress":
         tasktracker.update_status(args.id, "in-progress")
-        print(f"Marked '{args.id}' in progress")
+        print(f"Marked task '{args.id}' in progress")
     elif args.command == "mark-done":
         tasktracker.update_status(args.id, "done")
-        print(f"Marked '{args.id}' done")
+        print(f"Marked task '{args.id}' done")
     elif args.command == "list":
         result = tasktracker._list(args.filter)
-        for task in result:
-            print(f"{task['id']}\t{task['description']}\t{task['status']}")
+        if not result:
+            print("Your task list is empty.")
+        else:
+            for task in result:
+                print(f"{task['id']}\t{task['description']}\t{task['status']}\t{task['createdAt']}\t{task['updatedAt']}")
     else:
         parser.print_help()
 
