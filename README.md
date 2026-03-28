@@ -4,8 +4,6 @@ Task Tracker is a command-line interface (CLI) application designed to help you 
 
 This project was created to help practice programming skills, including handling user inputs, interacting with the file system, and building a functional CLI tool.
 
-Project URL: https://roadmap.sh/projects/task-tracker
-
 ## Features
 
 - Add, update, and delete tasks
@@ -190,6 +188,11 @@ We welcome contributions to improve the Task Tracker CLI! If you'd like to contr
 3. Make your changes.
 4. Commit and push your changes (`git push origin feature-name`).
 5. Submit a pull request.
+
+## Useful Links
+
+Project URL: https://roadmap.sh/projects/task-tracker
+CLI application with Python: https://dev.to/kanakos01/create-a-cli-application-with-python-1j37
 
 ## License
 
