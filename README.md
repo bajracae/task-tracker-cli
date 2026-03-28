@@ -1,5 +1,3 @@
-You should copy and paste the following content directly into your `README.md` file:
-
 # Task Tracker CLI
 
 Task Tracker is a command-line interface (CLI) application designed to help you manage and track your tasks and to-do lists efficiently. With this CLI, you can add, update, delete, and track tasks, while storing them in a simple JSON file.
