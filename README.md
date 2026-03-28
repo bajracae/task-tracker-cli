@@ -191,8 +191,8 @@ We welcome contributions to improve the Task Tracker CLI! If you'd like to contr
 
 ## Useful Links
 
-Project URL: https://roadmap.sh/projects/task-tracker
-CLI application with Python: https://dev.to/kanakos01/create-a-cli-application-with-python-1j37
+- Project URL: https://roadmap.sh/projects/task-tracker
+- CLI application with Python: https://dev.to/kanakos01/create-a-cli-application-with-python-1j37
 
 ## License
 
